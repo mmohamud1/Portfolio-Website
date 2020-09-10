@@ -22,30 +22,26 @@
 }
 
 .hero {
-    padding: 120px 50px;
+    padding: 80px 50px;
+    padding-bottom: 0px;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-    &-heading {
-        text-align: center;
-        font-family: 'Orbitron', sans-serif;
-        font-size: 20px;
-        font-weight: 800;
-        margin-bottom: 20px;
-    }
-
-    &-sub-heading {
-        text-align: center;
-        font-weight: 200;
-        font-size: 25px;
-        margin-bottom: 30px;
-    }
-
     &-img { 
-        width: 240px;
-        height: 240px;
+        width: 16.25rem;
+        height: 16.25rem;
+        margin-bottom: 30%;
+    }
+
+    &-bg {
+        width: 60%;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
     }
 }
