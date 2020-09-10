@@ -1,6 +1,9 @@
 :root {
   --header-font: 'Orbitron', sans-serif;
-  --text-font: 'Roboto', sans-serif; }
+  --text-font: 'Roboto', sans-serif;
+  --primary-color: #00B0FF;
+  --white-color: #fff;
+  --black-color: #000; }
 
 *,
 *::before,
@@ -10,4 +13,33 @@
   box-sizing: border-box; }
 
 body {
-  color: white; }
+  color: var(--black-color);
+  font-family: var(--text-font);
+  background-color: var(--white-color); }
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 60px; }
+  .nav-logo {
+    width: 40px; }
+  .nav-link {
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 19px;
+    margin: 0 15px;
+    font-weight: 300; }
+  .nav-link:hover {
+    color: var(--primary-color); }
+
+.btn-1 {
+  border-radius: 25px;
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  padding: 0.7rem 0.95rem;
+  color: var(--primary-color); }
+
+.btn-1:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color); }

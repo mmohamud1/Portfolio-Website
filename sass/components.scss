@@ -1,0 +1,12 @@
+.btn-1 {
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    padding: 0.7rem 0.95rem;
+    color: var(--primary-color);
+}
+
+.btn-1:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}

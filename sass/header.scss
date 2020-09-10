@@ -1,0 +1,22 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+
+    &-logo {
+        width: 40px;
+    }
+
+    &-link {
+        text-decoration: none;
+        color: var(--black-color);
+        font-size: 19px;
+        margin: 0 15px;
+        font-weight: 300;
+    }
+
+    &-link:hover {
+        color: var(--primary-color);
+    }
+}
