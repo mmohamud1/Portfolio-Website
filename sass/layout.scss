@@ -3,22 +3,52 @@
     width: 100%;
     height: auto;
     margin-top: 32%;
-    padding: 140px 300px;
+    padding: 140px 250px;
+    padding-bottom: 250px;
     color: var(--white-color);
 
     @include respond(laptop) {
         padding: 120px 200px;
+        padding-bottom: 250px;
     }
 
     @include respond(tablet) {
         padding: 100px 100px;
+        padding-bottom: 250px;
     }
 
     @include respond(phone) {
         padding: 50px 50px;
+        padding-bottom: 250px;
     }
 
     @include respond(small-phone) {
         padding: 50px 25px;
+        padding-bottom: 250px;
+    }
+}
+
+.learn {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+    &-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0rem;
+        width: 90%;
+        position: absolute;
+        top: -160px;
+        right: 5%;
+        margin-bottom: 50px;
+
+        @include respond(tablet) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include respond(phone) {
+            grid-template-columns: repeat(1, 1fr);
+        }
     }
 }

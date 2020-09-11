@@ -5,7 +5,8 @@
     // Colours
     --primary-color: #00B0FF;
     --white-color: #fff;
-    --black-color: #000;
+    --black-color: #141c3a;
+    --border-color: #E6ECF8;
 }
 
 *,
@@ -35,9 +36,6 @@ body {
     }
     @if $breakpoint == laptop {
         @media only screen and (max-width: 1200px) { @content };    
-    }
-    @if $breakpoint == desktop {
-        @media only screen and (max-width: 1700px) { @content };   
     }
     @if $breakpoint == big-desktop {
         @media only screen and (min-width: 1700px) { @content };    
