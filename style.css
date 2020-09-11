@@ -22,14 +22,33 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 30px 60px; }
+  @media only screen and (min-width: 1700px) {
+    .nav {
+      padding: 40px 70px; } }
+  @media only screen and (max-width: 630px) {
+    .nav {
+      padding: 15px 10px; } }
   .nav-logo {
     width: 40px; }
+    @media only screen and (min-width: 1700px) {
+      .nav-logo {
+        width: 60px; } }
+    @media only screen and (max-width: 630px) {
+      .nav-logo {
+        width: 25px; } }
   .nav-link {
     text-decoration: none;
     color: var(--black-color);
     font-size: 19px;
     margin: 0 15px;
     font-weight: 300; }
+    @media only screen and (min-width: 1700px) {
+      .nav-link {
+        font-size: 30px; } }
+    @media only screen and (max-width: 630px) {
+      .nav-link {
+        margin: 0px 10px;
+        font-size: 10px; } }
   .nav-link:hover {
     color: var(--primary-color); }
 
@@ -49,6 +68,10 @@ body {
       .hero-image {
         width: 13rem;
         height: 13rem; } }
+    @media only screen and (max-width: 630px) {
+      .hero-image {
+        width: 7.5rem;
+        height: 7.5rem; } }
   .hero-bg {
     width: 60%;
     position: absolute;
@@ -63,6 +86,9 @@ body {
   border: 2px solid var(--primary-color);
   padding: 0.7rem 0.95rem;
   color: var(--primary-color); }
+  @media only screen and (max-width: 630px) {
+    .btn-1 {
+      padding: 0.3rem 0.5rem; } }
 
 .btn-1:hover {
   background-color: var(--primary-color);
@@ -74,30 +100,67 @@ body {
   font-size: 20px;
   font-weight: 800;
   margin-bottom: 30px; }
+  @media only screen and (min-width: 1700px) {
+    .hero-heading {
+      font-size: 28px; } }
   @media only screen and (max-width: 900px) {
     .hero-heading {
       font-size: 15px; } }
+  @media only screen and (max-width: 630px) {
+    .hero-heading {
+      font-size: 8px; } }
 
 .hero-sub-heading {
   text-align: center;
   font-weight: 200;
   font-size: 25px;
   margin-bottom: 30px; }
+  @media only screen and (min-width: 1700px) {
+    .hero-sub-heading {
+      font-size: 35px; } }
   @media only screen and (max-width: 900px) {
     .hero-sub-heading {
       font-size: 20px; } }
+  @media only screen and (max-width: 630px) {
+    .hero-sub-heading {
+      font-size: 13px; } }
 
 .about-heading {
   text-align: center;
   font-family: var(--header-font);
   font-size: 20px;
   margin-bottom: 20px; }
+  @media only screen and (min-width: 1700px) {
+    .about-heading {
+      font-size: 28px; } }
+  @media only screen and (max-width: 900px) {
+    .about-heading {
+      font-size: 15px; } }
+  @media only screen and (max-width: 630px) {
+    .about-heading {
+      font-size: 12px; } }
+  @media only screen and (max-width: 360px) {
+    .about-heading {
+      font-size: 10px; } }
 
 .about-content {
   text-align: center;
   line-height: 2rem;
   font-weight: 200;
   font-size: 18px; }
+  @media only screen and (min-width: 1700px) {
+    .about-content {
+      font-size: 28px;
+      line-height: 3rem; } }
+  @media only screen and (max-width: 900px) {
+    .about-content {
+      font-size: 15px; } }
+  @media only screen and (max-width: 630px) {
+    .about-content {
+      font-size: 12px; } }
+  @media only screen and (max-width: 360px) {
+    .about-content {
+      font-size: 10px; } }
 
 .about {
   background-color: var(--primary-color);
@@ -106,3 +169,15 @@ body {
   margin-top: 32%;
   padding: 140px 300px;
   color: var(--white-color); }
+  @media only screen and (max-width: 1200px) {
+    .about {
+      padding: 120px 200px; } }
+  @media only screen and (max-width: 900px) {
+    .about {
+      padding: 100px 100px; } }
+  @media only screen and (max-width: 630px) {
+    .about {
+      padding: 50px 50px; } }
+  @media only screen and (max-width: 360px) {
+    .about {
+      padding: 50px 25px; } }

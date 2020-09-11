@@ -5,8 +5,16 @@
     font-weight: 800;
     margin-bottom: 30px;
 
+    @include respond(big-desktop) {
+        font-size: 28px;
+    }
+
     @include respond(tablet) {
         font-size: 15px;
+    }
+
+    @include respond(phone) {
+        font-size: 8px;
     }
 }
 
@@ -16,8 +24,16 @@
     font-size: 25px;
     margin-bottom: 30px;
 
+    @include respond(big-desktop) {
+        font-size: 35px;
+    }
+
     @include respond(tablet) {
         font-size: 20px;
+    }
+
+    @include respond(phone) {
+        font-size: 13px;
     }
 }
 
@@ -26,6 +42,22 @@
     font-family: var(--header-font);
     font-size: 20px;
     margin-bottom: 20px;
+
+    @include respond(big-desktop) {
+        font-size: 28px;
+    }
+
+    @include respond(tablet) {
+        font-size: 15px;
+    }
+
+    @include respond(phone) {
+        font-size: 12px;
+    }
+
+    @include respond(small-phone) {
+        font-size: 10px;
+    }
 }
 
 .about-content {
@@ -33,4 +65,21 @@
     line-height: 2rem;
     font-weight: 200;
     font-size: 18px;
+
+    @include respond(big-desktop) {
+        font-size: 28px;
+        line-height: 3rem;
+    }
+
+    @include respond(tablet) {
+        font-size: 15px;
+    }
+
+    @include respond(phone) {
+        font-size: 12px;
+    }
+
+    @include respond(small-phone) {
+        font-size: 10px;
+    }
 }

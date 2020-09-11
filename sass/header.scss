@@ -4,8 +4,24 @@
     justify-content: space-between;
     padding: 30px 60px;
 
+    @include respond(big-desktop) {
+        padding: 40px 70px;
+    }
+
+    @include respond(phone) {
+        padding: 15px 10px;
+    }
+
     &-logo {
         width: 40px;
+        
+        @include respond(big-desktop) {
+            width: 60px;
+        }
+
+        @include respond(phone) {
+            width: 25px;
+        }
     }
 
     &-link {
@@ -14,6 +30,15 @@
         font-size: 19px;
         margin: 0 15px;
         font-weight: 300;
+
+        @include respond(big-desktop) {
+            font-size: 30px;
+        }
+
+        @include respond(phone) {
+            margin: 0px 10px;
+            font-size: 10px;
+        }
     }
 
     &-link:hover {
@@ -38,6 +63,11 @@
         @include respond(tablet) {
             width: 13rem;
             height: 13rem;
+        }
+
+        @include respond(phone) {
+            width: 7.5rem;
+            height: 7.5rem;
         }
     }
 

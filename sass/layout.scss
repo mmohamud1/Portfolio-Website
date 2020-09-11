@@ -5,4 +5,20 @@
     margin-top: 32%;
     padding: 140px 300px;
     color: var(--white-color);
+
+    @include respond(laptop) {
+        padding: 120px 200px;
+    }
+
+    @include respond(tablet) {
+        padding: 100px 100px;
+    }
+
+    @include respond(phone) {
+        padding: 50px 50px;
+    }
+
+    @include respond(small-phone) {
+        padding: 50px 25px;
+    }
 }
