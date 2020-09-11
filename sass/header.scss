@@ -34,6 +34,11 @@
         width: 16.25rem;
         height: 16.25rem;
         margin-bottom: 30%;
+
+        @include respond(tablet) {
+            width: 13rem;
+            height: 13rem;
+        }
     }
 
     &-bg {

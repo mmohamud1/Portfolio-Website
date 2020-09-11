@@ -45,6 +45,10 @@ body {
     width: 16.25rem;
     height: 16.25rem;
     margin-bottom: 30%; }
+    @media only screen and (max-width: 900px) {
+      .hero-image {
+        width: 13rem;
+        height: 13rem; } }
   .hero-bg {
     width: 60%;
     position: absolute;
@@ -70,12 +74,18 @@ body {
   font-size: 20px;
   font-weight: 800;
   margin-bottom: 30px; }
+  @media only screen and (max-width: 900px) {
+    .hero-heading {
+      font-size: 15px; } }
 
 .hero-sub-heading {
   text-align: center;
   font-weight: 200;
   font-size: 25px;
   margin-bottom: 30px; }
+  @media only screen and (max-width: 900px) {
+    .hero-sub-heading {
+      font-size: 20px; } }
 
 .about-heading {
   text-align: center;
