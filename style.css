@@ -24,7 +24,7 @@ body {
   padding: 30px 60px; }
   @media only screen and (min-width: 1700px) {
     .nav {
-      padding: 40px 70px; } }
+      padding: 40px 75px; } }
   @media only screen and (max-width: 630px) {
     .nav {
       padding: 15px 10px; } }
@@ -44,6 +44,7 @@ body {
     font-weight: 300; }
     @media only screen and (min-width: 1700px) {
       .nav-link {
+        margin: 0 20px;
         font-size: 30px; } }
     @media only screen and (max-width: 630px) {
       .nav-link {
@@ -64,6 +65,10 @@ body {
     width: 16.25rem;
     height: 16.25rem;
     margin-bottom: 30%; }
+    @media only screen and (min-width: 1700px) {
+      .hero-image {
+        width: 20rem;
+        height: 20rem; } }
     @media only screen and (max-width: 900px) {
       .hero-image {
         width: 13rem;
@@ -86,6 +91,10 @@ body {
   border: 2px solid var(--primary-color);
   padding: 0.7rem 0.95rem;
   color: var(--primary-color); }
+  @media only screen and (min-width: 1700px) {
+    .btn-1 {
+      border-radius: 35px;
+      padding: 1rem 1.3rem; } }
   @media only screen and (max-width: 630px) {
     .btn-1 {
       padding: 0.3rem 0.5rem; } }

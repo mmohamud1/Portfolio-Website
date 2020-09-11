@@ -5,7 +5,7 @@
     padding: 30px 60px;
 
     @include respond(big-desktop) {
-        padding: 40px 70px;
+        padding: 40px 75px;
     }
 
     @include respond(phone) {
@@ -32,6 +32,7 @@
         font-weight: 300;
 
         @include respond(big-desktop) {
+            margin: 0 20px;
             font-size: 30px;
         }
 
@@ -59,6 +60,11 @@
         width: 16.25rem;
         height: 16.25rem;
         margin-bottom: 30%;
+
+        @include respond(big-desktop) {
+            width: 20rem;
+            height: 20rem;
+        }
 
         @include respond(tablet) {
             width: 13rem;

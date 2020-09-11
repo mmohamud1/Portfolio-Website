@@ -5,6 +5,11 @@
     padding: 0.7rem 0.95rem;
     color: var(--primary-color);
 
+    @include respond(big-desktop) {
+        border-radius: 35px;
+        padding: 1rem 1.3rem;
+    }
+
     @include respond(phone) {
         padding: 0.3rem 0.5rem;
     }
