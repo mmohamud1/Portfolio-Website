@@ -52,3 +52,31 @@
         }
     }
 }
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 940px;
+
+    @include respond(tablet) {
+        margin-top: 1390px;
+    }
+
+    @include respond(phone) {
+        margin-top: 2490px;
+    }
+
+    @include respond(small-phone) {
+        margin-top: 5090px;
+    }
+
+    &-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1.5rem;
+        padding: 50px 40px;
+    }
+}

@@ -108,3 +108,29 @@
         font-size: 15px;
     }
 }
+
+.projects-heading {
+    text-align: center;
+    font-family: var(--header-font);
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.projects-subheading {
+    text-align: center;
+    font-weight: 200;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.project-card-text {
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+.project-card-btn {
+    color: var(--white-color);
+    font-family: var(--text-font);
+    font-size: 20px;
+}
