@@ -110,6 +110,14 @@ body {
   font-family: var(--text-font);
   font-size: 18px;
   padding: 0.7rem 2.0rem; }
+  @media only screen and (max-width: 1200px) {
+    .project-card-btn {
+      font-size: 16px;
+      padding: 0.6rem 1.9rem; } }
+  @media only screen and (max-width: 900px) {
+    .project-card-btn {
+      font-size: 14px;
+      padding: 0.5rem 1.8rem; } }
 
 .btn-2 {
   padding: 0.7rem 2.5rem;
@@ -168,16 +176,16 @@ body {
 
 .projects-card {
   width: 100%;
-  height: 250px;
+  height: 300px;
   border-radius: 10px;
   position: relative;
   box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px var(--border-color); }
   @media only screen and (min-width: 1700px) {
     .projects-card {
       height: 350px; } }
-  @media only screen and (max-width: 1700px) {
+  @media only screen and (max-width: 1200px) {
     .projects-card {
-      height: 300px; } }
+      height: 200px; } }
   .projects-card-img {
     width: 100%;
     height: 100%;
@@ -314,6 +322,12 @@ body {
 .project-card-text {
   margin-bottom: 20px;
   font-size: 19px; }
+  @media only screen and (max-width: 1200px) {
+    .project-card-text {
+      font-size: 16px; } }
+  @media only screen and (max-width: 900px) {
+    .project-card-text {
+      font-size: 14px; } }
 
 .about {
   background-color: var(--primary-color);
