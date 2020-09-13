@@ -66,11 +66,11 @@
     }
 
     @include respond(phone) {
-        margin-top: 2490px;
+        margin-top: 2650px;
     }
 
     @include respond(small-phone) {
-        margin-top: 5090px;
+        margin-top: 1790px;
     }
 
     &-cards {
@@ -78,6 +78,14 @@
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 1.5rem;
         padding: 50px 40px;
+
+        @include respond(tablet) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include respond(phone) {
+            grid-template-columns: repeat(1, 1fr);
+        }
     }
 
     &-btn {

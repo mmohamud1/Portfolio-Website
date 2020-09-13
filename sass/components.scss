@@ -42,6 +42,15 @@
 .btn-2 {
     padding: 0.7rem 2.5rem;
     font-weight: 300;
+
+    @include respond(large-desktop) {
+        padding: 0.9rem 2.9rem;
+        font-size: 18px;
+    }
+
+    @include respond(phone) {
+        padding: 0.6rem 2.2rem;
+    }
 }
 
 // Cards
@@ -133,6 +142,10 @@
 
     @include respond(laptop) {
         height: 200px;
+    }
+
+    @include respond(phone) {
+        height: 350px;
     }
 
     &-img {

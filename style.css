@@ -122,6 +122,9 @@ body {
 .btn-2 {
   padding: 0.7rem 2.5rem;
   font-weight: 300; }
+  @media only screen and (max-width: 630px) {
+    .btn-2 {
+      padding: 0.6rem 2.2rem; } }
 
 .learn-card {
   display: flex;
@@ -186,6 +189,9 @@ body {
   @media only screen and (max-width: 1200px) {
     .projects-card {
       height: 200px; } }
+  @media only screen and (max-width: 630px) {
+    .projects-card {
+      height: 350px; } }
   .projects-card-img {
     width: 100%;
     height: 100%;
@@ -312,12 +318,18 @@ body {
   font-size: 28px;
   font-weight: 800;
   margin-bottom: 20px; }
+  @media only screen and (max-width: 630px) {
+    .projects-heading {
+      font-size: 22px; } }
 
 .projects-subheading {
   text-align: center;
   font-weight: 200;
   font-size: 22px;
   margin-bottom: 30px; }
+  @media only screen and (max-width: 630px) {
+    .projects-subheading {
+      font-size: 18px; } }
 
 .project-card-text {
   margin-bottom: 20px;
@@ -328,6 +340,14 @@ body {
   @media only screen and (max-width: 900px) {
     .project-card-text {
       font-size: 14px; } }
+
+.footer-heading {
+  color: var(--white-color);
+  font-family: var(--header-font);
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  padding: 0 330px; }
 
 .about {
   background-color: var(--primary-color);
@@ -386,16 +406,36 @@ body {
       margin-top: 1390px; } }
   @media only screen and (max-width: 630px) {
     .projects {
-      margin-top: 2490px; } }
+      margin-top: 2650px; } }
   @media only screen and (max-width: 360px) {
     .projects {
-      margin-top: 5090px; } }
+      margin-top: 1790px; } }
   .projects-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1.5rem;
     padding: 50px 40px; }
+    @media only screen and (max-width: 900px) {
+      .projects-cards {
+        grid-template-columns: repeat(2, 1fr); } }
+    @media only screen and (max-width: 630px) {
+      .projects-cards {
+        grid-template-columns: repeat(1, 1fr); } }
   .projects-btn {
     font-size: 20px;
     margin-bottom: 100px;
     margin-top: 60px; }
+
+.footer {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .footer-logo {
+    width: 70px;
+    height: 70px;
+    margin-left: 5px;
+    margin-bottom: 20px; }

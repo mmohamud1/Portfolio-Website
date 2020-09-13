@@ -115,6 +115,10 @@
     font-size: 28px;
     font-weight: 800;
     margin-bottom: 20px;
+
+    @include respond(phone) {
+       font-size: 22px;
+    }
 }
 
 .projects-subheading {
@@ -122,6 +126,10 @@
     font-weight: 200;
     font-size: 22px;
     margin-bottom: 30px;
+
+    @include respond(phone) {
+        font-size: 18px;
+    }
 }
 
 .project-card-text {
@@ -135,4 +143,13 @@
     @include respond(tablet) {
         font-size: 14px;
     }
+}
+
+.footer-heading {
+    color: var(--white-color);
+    font-family: var(--header-font);
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    padding: 0 330px;
 }
