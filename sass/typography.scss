@@ -167,3 +167,22 @@
         font-size: 15px;
     }
 }
+
+.contact-header {
+    text-align: center;
+    font-family: var(--header-font);
+    line-height: 45px;
+    font-weight: 800;
+
+    @include respond(tablet) {
+        font-size: 18px;
+    }
+
+    @include respond(phone) {
+        font-size: 13px;
+    }
+
+    @include respond(small-phone) {
+        font-size: 10px;
+    }
+}

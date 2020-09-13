@@ -127,6 +127,10 @@ body {
     .btn-2 {
       padding: 0.6rem 2.2rem; } }
 
+.btn-3 {
+  padding: 0.7rem 2.5rem;
+  cursor: pointer; }
+
 .learn-card {
   display: flex;
   flex-direction: column;
@@ -361,6 +365,21 @@ body {
     .footer-copyright {
       font-size: 15px; } }
 
+.contact-header {
+  text-align: center;
+  font-family: var(--header-font);
+  line-height: 45px;
+  font-weight: 800; }
+  @media only screen and (max-width: 900px) {
+    .contact-header {
+      font-size: 18px; } }
+  @media only screen and (max-width: 630px) {
+    .contact-header {
+      font-size: 13px; } }
+  @media only screen and (max-width: 360px) {
+    .contact-header {
+      font-size: 10px; } }
+
 .about {
   background-color: var(--primary-color);
   width: 100%;
@@ -475,7 +494,31 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  padding: 0 290px; }
+  @media only screen and (max-width: 900px) {
+    .contact {
+      padding: 0 150px; } }
+  @media only screen and (max-width: 630px) {
+    .contact {
+      padding: 0 100px; } }
+  @media only screen and (max-width: 630px) {
+    .contact {
+      padding: 0 10px; } }
   .contact-logo {
-    width: 150px;
-    height: 150px; }
+    width: 140px;
+    height: 140px;
+    margin-bottom: 20px; }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px; }
+    .contact-form-box {
+      border-radius: 5px;
+      padding: 20px;
+      border: 1px solid var(--black-color);
+      outline: none;
+      margin-bottom: 40px; }
