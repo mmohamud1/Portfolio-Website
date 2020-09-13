@@ -133,11 +133,12 @@
 }
 
 .project-card-text {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-size: 19px;
 
     @include respond(laptop) {
         font-size: 16px;
+        margin-bottom: 20px;
     }
 
     @include respond(tablet) {
@@ -146,10 +147,23 @@
 }
 
 .footer-heading {
-    color: var(--white-color);
+    color: var(--footer-text);
     font-family: var(--header-font);
     font-weight: 400;
     font-size: 22px;
     text-align: center;
-    padding: 0 330px;
+    margin-bottom: 20px;
+
+    @include respond(phone) {
+        font-size: 17px;
+    }
+}
+
+.footer-copyright {
+    color: var(--footer-text);
+    font-weight: 200;
+
+    @include respond(phone) {
+        font-size: 15px;
+    }
 }
