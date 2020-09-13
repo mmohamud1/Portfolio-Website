@@ -470,3 +470,12 @@ body {
           margin: 10px 0; } }
       .footer-icons-item:hover {
         color: var(--footer-text); }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .contact-logo {
+    width: 150px;
+    height: 150px; }
