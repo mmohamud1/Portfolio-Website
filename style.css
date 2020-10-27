@@ -94,7 +94,9 @@ body {
   .hero-image {
     width: 16.25rem;
     height: 16.25rem;
-    margin-bottom: 30%; }
+    margin-bottom: 30%;
+    animation: moveInBottom .5s ease-out .75s;
+    animation-fill-mode: backwards; }
     @media only screen and (min-width: 1700px) {
       .hero-image {
         width: 20.25rem;

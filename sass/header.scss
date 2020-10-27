@@ -60,6 +60,8 @@
         width: 16.25rem;
         height: 16.25rem;
         margin-bottom: 30%;
+        animation: moveInBottom .5s ease-out .75s;
+        animation-fill-mode: backwards;
 
         @include respond(big-desktop) {
             width: 20.25rem;
