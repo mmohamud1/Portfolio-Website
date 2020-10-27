@@ -71,7 +71,7 @@ body {
       .hero-image {
         width: 20.25rem;
         height: 20.25rem; } }
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 910px) {
       .hero-image {
         width: 13rem;
         height: 13rem; } }
@@ -115,7 +115,7 @@ body {
     .project-card-btn {
       font-size: 16px;
       padding: 0.6rem 1.9rem; } }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 910px) {
     .project-card-btn {
       font-size: 14px;
       padding: 0.5rem 1.8rem; } }
@@ -154,7 +154,7 @@ body {
     @media only screen and (max-width: 630px) {
       .learn-card-1 {
         border-top-right-radius: 12px; } }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 910px) {
     .learn-card-2 {
       border-top-right-radius: 12px; } }
   @media only screen and (max-width: 630px) {
@@ -162,15 +162,15 @@ body {
       border-top-right-radius: 0px; } }
   .learn-card-3 {
     border-top-right-radius: 12px; }
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 910px) {
       .learn-card-3 {
         border-top-right-radius: 0px; } }
   .learn-card-4 {
     border-bottom-left-radius: 12px; }
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 910px) {
       .learn-card-4 {
         border-bottom-left-radius: 0px; } }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 910px) {
     .learn-card-5 {
       border-bottom-left-radius: 12px; } }
   @media only screen and (max-width: 630px) {
@@ -239,7 +239,7 @@ body {
   @media only screen and (min-width: 1700px) {
     .hero-heading {
       font-size: 28px; } }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 910px) {
     .hero-heading {
       font-size: 15px; } }
   @media only screen and (max-width: 630px) {
@@ -254,7 +254,7 @@ body {
   @media only screen and (min-width: 1700px) {
     .hero-sub-heading {
       font-size: 35px; } }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 910px) {
     .hero-sub-heading {
       font-size: 20px; } }
   @media only screen and (max-width: 630px) {
@@ -269,7 +269,7 @@ body {
   @media only screen and (min-width: 1700px) {
     .about-heading {
       font-size: 28px; } }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 910px) {
     .about-heading {
       font-size: 15px; } }
   @media only screen and (max-width: 360px) {
@@ -285,7 +285,7 @@ body {
     .about-content {
       font-size: 28px;
       line-height: 3rem; } }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 910px) {
     .about-content {
       font-size: 15px; } }
   @media only screen and (max-width: 630px) {
@@ -301,7 +301,7 @@ body {
   font-family: var(--header-font);
   font-size: 20px;
   margin: 30px 0; }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 910px) {
     .learn-card-heading {
       font-size: 15px; } }
 
@@ -343,7 +343,7 @@ body {
     .project-card-text {
       font-size: 16px;
       margin-bottom: 20px; } }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 910px) {
     .project-card-text {
       font-size: 14px; } }
 
@@ -370,7 +370,7 @@ body {
   font-family: var(--header-font);
   line-height: 45px;
   font-weight: 800; }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 910px) {
     .contact-header {
       font-size: 18px; } }
   @media only screen and (max-width: 630px) {
@@ -392,7 +392,7 @@ body {
     .about {
       padding: 120px 200px;
       padding-bottom: 250px; } }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 910px) {
     .about {
       padding: 100px 100px;
       padding-bottom: 250px; } }
@@ -418,7 +418,7 @@ body {
     top: -160px;
     right: 5%;
     margin-bottom: 50px; }
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 910px) {
       .learn-cards {
         grid-template-columns: repeat(2, 1fr); } }
     @media only screen and (max-width: 630px) {
@@ -431,13 +431,13 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 1080px; }
-  @media only screen and (max-width: 900px) {
+  margin-top: 1000px; }
+  @media only screen and (max-width: 910px) {
     .projects {
       margin-top: 1490px; } }
   @media only screen and (max-width: 630px) {
     .projects {
-      margin-top: 3050px; } }
+      margin-top: 3000px; } }
   @media only screen and (max-width: 360px) {
     .projects {
       margin-top: 1990px; } }
@@ -446,7 +446,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1.5rem;
     padding: 50px 40px; }
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 910px) {
       .projects-cards {
         grid-template-columns: repeat(2, 1fr); } }
     @media only screen and (max-width: 630px) {
@@ -496,7 +496,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0 290px; }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 910px) {
     .contact {
       padding: 0 150px; } }
   @media only screen and (max-width: 630px) {
