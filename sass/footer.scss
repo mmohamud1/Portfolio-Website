@@ -1,45 +1,44 @@
 .footer {
-    background-color: var(--primary-color);
-    color: var(--white-color);
-    padding: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @include respond(phone) {
+    padding: 50px;
+  }
+
+  &-logo {
+    width: 70px;
+    height: 70px;
+    margin-left: 5px;
+    margin-bottom: 30px;
 
     @include respond(phone) {
-        padding: 50px;
+      width: 45px;
+      height: 45px;
     }
+  }
 
-    &-logo {
-        width: 70px;
-        height: 70px;
-        margin-left: 5px;
-        margin-bottom: 30px;
+  &-icons {
+    margin-top: 20px;
+    margin-bottom: 50px;
 
-        @include respond(phone) {
-            width: 45px;
-            height: 45px;
-        }
+    &-item {
+      text-decoration: none;
+      color: var(--white-color);
+      margin: 10px 10px;
+
+      @include respond(phone) {
+        margin: 10px 0;
+      }
+
+      &:hover {
+        color: var(--footer-text);
+      }
     }
-
-    &-icons {
-        margin-top: 20px;
-        margin-bottom: 50px;
-
-        &-item {
-            text-decoration: none;
-            color: var(--white-color);
-            margin: 10px 10px;
-
-            @include respond(phone) {
-                margin: 10px 0;
-            }
-            
-            &:hover {
-                color: var(--footer-text);
-            }
-        }
-    } 
-
+  }
 }

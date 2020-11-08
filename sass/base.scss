@@ -1,48 +1,59 @@
 :root {
-    // Fonts
-    --header-font: 'Orbitron', sans-serif;
-    --text-font: 'Roboto', sans-serif;
-    // Colours
-    --primary-color: #00B0FF;
-    --white-color: #fff;
-    --black-color: #141c3a;
-    --border-color: #E6ECF8;
-    --footer-text: 	rgb(255, 255, 255, 0.6);
+  // Fonts
+  --header-font: 'Orbitron', sans-serif;
+  --text-font: 'Roboto', sans-serif;
+  // Colours
+  --primary-color: #00b0ff;
+  --white-color: #fff;
+  --black-color: #141c3a;
+  --border-color: #e6ecf8;
+  --footer-text: rgb(255, 255, 255, 0.6);
 }
 
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    color: var(--black-color);
-    font-family: var(--text-font);
-    background-color: var(--white-color);
+  color: var(--black-color);
+  font-family: var(--text-font);
+  background-color: var(--white-color);
 }
 
 // Responsivenss
 @mixin respond($breakpoint) {
-    @if $breakpoint == small-phone {
-        @media only screen and (max-width: 360px) { @content };    
+  @if $breakpoint == small-phone {
+    @media only screen and (max-width: 360px) {
+      @content;
     }
-    @if $breakpoint == phone {
-        @media only screen and (max-width: 630px) { @content };    
+  }
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 630px) {
+      @content;
     }
-    @if $breakpoint == tablet {
-        @media only screen and (max-width: 910px) { @content };     
+  }
+  @if $breakpoint == tablet {
+    @media only screen and (max-width: 910px) {
+      @content;
     }
-    @if $breakpoint == laptop {
-        @media only screen and (max-width: 1200px) { @content };    
+  }
+  @if $breakpoint == laptop {
+    @media only screen and (max-width: 1200px) {
+      @content;
     }
-    @if $breakpoint == desktop {
-        @media only screen and (max-width: 1700px) { @content };    
+  }
+  @if $breakpoint == desktop {
+    @media only screen and (max-width: 1700px) {
+      @content;
     }
-    @if $breakpoint == big-desktop {
-        @media only screen and (min-width: 1700px) { @content };    
+  }
+  @if $breakpoint == big-desktop {
+    @media only screen and (min-width: 1700px) {
+      @content;
     }
+  }
 }
-

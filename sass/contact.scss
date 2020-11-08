@@ -1,42 +1,42 @@
 .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 290px;
+
+  @include respond(tablet) {
+    padding: 0 150px;
+  }
+
+  @include respond(phone) {
+    padding: 0 100px;
+  }
+
+  @include respond(phone) {
+    padding: 0 10px;
+  }
+
+  &-logo {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 20px;
+  }
+
+  &-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 290px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 
-    @include respond(tablet) {
-        padding: 0 150px;
+    &-box {
+      border-radius: 5px;
+      padding: 20px;
+      border: 1px solid var(--black-color);
+      outline: none;
+      margin-bottom: 40px;
     }
-
-    @include respond(phone) {
-        padding: 0 100px;
-    }
-
-    @include respond(phone) {
-        padding: 0 10px;
-    }
-
-    &-logo {
-        width: 140px;
-        height: 140px;
-        margin-bottom: 20px;
-    }
-
-    &-form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 30px;
-        margin-bottom: 50px;
-
-        &-box {
-            border-radius: 5px;
-            padding: 20px;
-            border: 1px solid var(--black-color);
-            outline: none;
-            margin-bottom: 40px;
-        }
-    }
+  }
 }
