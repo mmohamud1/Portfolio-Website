@@ -72,6 +72,17 @@
   @include respond(small-phone) {
     margin-top: 1990px;
   }
+
+  &-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    padding: 50px 100px;
+
+    @include respond(tablet) {
+      padding: 50px 40px;
+    }
+  }
 }
 
 .projects {

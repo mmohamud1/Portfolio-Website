@@ -466,6 +466,14 @@ body {
   @media only screen and (max-width: 360px) {
     .real {
       margin-top: 1990px; } }
+  .real-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    padding: 50px 100px; }
+    @media only screen and (max-width: 910px) {
+      .real-cards {
+        padding: 50px 40px; } }
 
 .projects {
   display: flex;
