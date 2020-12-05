@@ -53,7 +53,7 @@
   }
 }
 
-.projects {
+.real {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -72,6 +72,16 @@
   @include respond(small-phone) {
     margin-top: 1990px;
   }
+
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
 
   &-cards {
     display: grid;
