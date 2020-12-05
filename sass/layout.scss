@@ -66,12 +66,14 @@
   }
 
   @include respond(phone) {
-    margin-top: 3000px;
+    margin-top: 2750px;
   }
 
   @include respond(small-phone) {
     margin-top: 1990px;
   }
+
+  
 
 }
 
