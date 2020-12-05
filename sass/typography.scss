@@ -187,8 +187,8 @@
   }
 
   @include respond(phone) {
-    font-size: 12px;
-    margin-bottom: 10px;
+    font-size: 10px;
+    margin-bottom: 7px;
   }
 
    @include respond(small-phone) {

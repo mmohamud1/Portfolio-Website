@@ -247,7 +247,13 @@ body {
   align-items: center;
   text-align: center;
   margin-top: 10%;
-  padding: 0 10px; }
+  padding: 0 70px; }
+  @media only screen and (max-width: 910px) {
+    .real-card-overlay-content {
+      padding: 0 10px; } }
+  @media only screen and (max-width: 630px) {
+    .real-card-overlay-content {
+      padding: 0 0; } }
 
 .real-card:hover .real-card-overlay {
   opacity: 1; }
@@ -453,8 +459,8 @@ body {
       font-size: 14px; } }
   @media only screen and (max-width: 630px) {
     .real-card-text {
-      font-size: 12px;
-      margin-bottom: 10px; } }
+      font-size: 10px;
+      margin-bottom: 7px; } }
   @media only screen and (max-width: 360px) {
     .real-card-text {
       font-size: 7px; } }
@@ -549,7 +555,7 @@ body {
       margin-top: 1490px; } }
   @media only screen and (max-width: 630px) {
     .real {
-      margin-top: 2750px; } }
+      margin-top: 2850px; } }
   @media only screen and (max-width: 360px) {
     .real {
       margin-top: 1990px; } }
