@@ -133,8 +133,52 @@
     }
   }
 }
+
 .real-card {
-  
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 70px;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5),
+    0 0 0 1px var(--border-color);
+
+    &-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+}
+
+.real-card-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  opacity: 0;
+  transition: 0.45s ease-in-out;
+  background-color: rgba(20, 28, 58, 0.95);
+}
+
+.real-card-overlay-content {
+  color: white;
+  font-family: var(--header-font);
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10%;
+  padding: 0 10px;
+}
+
+.real-card:hover .real-card-overlay {
+  opacity: 1;
 }
 
 .projects-card {
@@ -154,7 +198,7 @@
   }
 
   @include respond(phone) {
-    height: 350px;
+    height: auto;
   }
 
   &-img {
