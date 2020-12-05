@@ -323,6 +323,25 @@ body {
     .learn-card-content {
       font-size: 15px; } }
 
+.real-heading {
+  text-align: center;
+  font-family: var(--header-font);
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 20px; }
+  @media only screen and (max-width: 630px) {
+    .real-heading {
+      font-size: 22px; } }
+
+.real-subheading {
+  text-align: center;
+  font-weight: 200;
+  font-size: 22px;
+  margin-bottom: 30px; }
+  @media only screen and (max-width: 630px) {
+    .real-subheading {
+      font-size: 18px; } }
+
 .projects-heading {
   text-align: center;
   font-family: var(--header-font);
