@@ -208,8 +208,8 @@
   margin-top: 10%;
   padding: 0 70px;
 
-  @include respond(tablet) {
-      padding: 0 10px ;
+  @include respond(big-desktop) {
+      padding: 50px 100px;
   }
 
   @include respond(phone) {
@@ -273,6 +273,10 @@
   text-align: center;
   margin-top: 10%;
   padding: 0 10px;
+
+  @include respond(big-desktop) {
+      padding: 30px 90px;
+  }
 }
 
 .projects-card:hover .project-card-overlay {

@@ -177,6 +177,10 @@
   font-size: 22px;
   margin-bottom: 50px;
 
+  @include respond(big-desktop) {
+      font-size: 29px;
+    }
+
   @include respond(laptop) {
     font-size: 19px;
     margin-bottom: 20px;
