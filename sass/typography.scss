@@ -127,7 +127,7 @@
   font-size: 22px;
   margin-bottom: 30px;
 
-  @include respond(phone) {
+  @include respond(tablet) {
     font-size: 18px;
   }
 }
@@ -165,7 +165,34 @@
   }
 
   @include respond(tablet) {
+    font-size: 12px;
+  }
+
+  @include respond(small-phone) {
+    font-size: 10px;
+  }
+}
+
+.real-card-text {
+  font-size: 22px;
+  margin-bottom: 50px;
+
+  @include respond(laptop) {
+    font-size: 19px;
+    margin-bottom: 20px;
+  }
+
+  @include respond(tablet) {
     font-size: 14px;
+  }
+
+  @include respond(phone) {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+   @include respond(small-phone) {
+    font-size: 7px;
   }
 }
 
