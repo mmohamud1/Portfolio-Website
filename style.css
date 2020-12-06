@@ -178,10 +178,8 @@ body {
       padding: 4px 0.75rem; } }
   .learn-card-icon {
     color: var(--primary-color);
-    text-align: center; }
-    .learn-card-icon-new {
-      font-size: 110px;
-      color: var(--primary-color); }
+    text-align: center;
+    font-size: 110px; }
   .learn-card-1 {
     border-top-left-radius: 12px; }
     @media only screen and (max-width: 630px) {
