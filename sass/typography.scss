@@ -89,6 +89,10 @@
   font-size: 20px;
   margin: 30px 0;
 
+  @include respond(big-desktop) {
+    font-size: 24px;
+  }
+
   @include respond(tablet) {
     font-size: 15px;
   }
@@ -99,6 +103,10 @@
   line-height: 2.1rem;
   font-weight: 200;
   font-size: 20px;
+
+  @include respond(big-desktop) {
+    font-size: 24px;
+  }
 
   @include respond(laptop) {
     font-size: 18px;
