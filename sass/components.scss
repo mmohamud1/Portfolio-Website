@@ -112,6 +112,12 @@
   &-icon {
     color: var(--primary-color);
     text-align: center;
+
+    &-new {
+      font-size: 110px;
+      color: var(--primary-color)
+    }
+
   }
 
   &-1 {
