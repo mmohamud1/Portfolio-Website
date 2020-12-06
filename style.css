@@ -180,6 +180,9 @@ body {
     color: var(--primary-color);
     text-align: center;
     font-size: 110px; }
+    @media only screen and (max-width: 630px) {
+      .learn-card-icon {
+        font-size: 80px; } }
   .learn-card-1 {
     border-top-left-radius: 12px; }
     @media only screen and (max-width: 630px) {
@@ -395,6 +398,9 @@ body {
   @media only screen and (max-width: 1200px) {
     .learn-card-content {
       font-size: 18px; } }
+  @media only screen and (max-width: 630px) {
+    .learn-card-content {
+      font-size: 15px; } }
   @media only screen and (max-width: 375px) {
     .learn-card-content {
       font-size: 15px; } }

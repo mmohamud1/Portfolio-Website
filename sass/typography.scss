@@ -104,6 +104,10 @@
     font-size: 18px;
   }
 
+  @include respond(phone) {
+    font-size: 15px;
+  }
+
   @include respond(small-phone) {
     font-size: 15px;
   }

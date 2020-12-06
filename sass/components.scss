@@ -113,6 +113,10 @@
     color: var(--primary-color);
     text-align: center;
     font-size: 110px;
+
+    @include respond(phone) {
+    font-size: 80px;
+  }
   }
 
   &-1 {
