@@ -66,11 +66,11 @@
   }
 
   @include respond(phone) {
-    margin-top: 2750px;
+    margin-top: 2550px;
   }
 
   @include respond(small-phone) {
-    margin-top: 1990px;
+    margin-top: 1790px;
   }
 
   &-cards {
