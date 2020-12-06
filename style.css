@@ -179,7 +179,13 @@ body {
   .learn-card-icon {
     color: var(--primary-color);
     text-align: center;
-    font-size: 110px; }
+    font-size: 120px; }
+    @media only screen and (max-width: 1200px) {
+      .learn-card-icon {
+        font-size: 110px; } }
+    @media only screen and (max-width: 910px) {
+      .learn-card-icon {
+        font-size: 100px; } }
     @media only screen and (max-width: 630px) {
       .learn-card-icon {
         font-size: 80px; } }
@@ -562,13 +568,16 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 1000px; }
+  margin-top: 1050px; }
+  @media only screen and (max-width: 1200px) {
+    .real {
+      margin-top: 1100px; } }
   @media only screen and (max-width: 910px) {
     .real {
       margin-top: 1490px; } }
   @media only screen and (max-width: 630px) {
     .real {
-      margin-top: 2550px; } }
+      margin-top: 2600px; } }
   @media only screen and (max-width: 375px) {
     .real {
       margin-top: 1790px; } }

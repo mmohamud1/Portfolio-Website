@@ -112,11 +112,19 @@
   &-icon {
     color: var(--primary-color);
     text-align: center;
-    font-size: 110px;
+    font-size: 120px;
+
+    @include respond(laptop) {
+      font-size: 110px;
+    }
+
+    @include respond(tablet) {
+      font-size: 100px;
+    }
 
     @include respond(phone) {
-    font-size: 80px;
-  }
+      font-size: 80px;
+    }
   }
 
   &-1 {
