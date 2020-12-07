@@ -88,7 +88,6 @@
   font-family: var(--header-font);
   font-size: 20px;
   margin: 30px 0;
-  
 
   @include respond(big-desktop) {
     font-size: 24px;
@@ -191,8 +190,8 @@
   margin-bottom: 50px;
 
   @include respond(big-desktop) {
-      font-size: 29px;
-    }
+    font-size: 29px;
+  }
 
   @include respond(laptop) {
     font-size: 19px;
@@ -208,7 +207,7 @@
     margin-bottom: 7px;
   }
 
-   @include respond(small-phone) {
+  @include respond(small-phone) {
     font-size: 7px;
   }
 }

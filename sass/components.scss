@@ -115,8 +115,8 @@
     font-size: 120px;
 
     @include respond(big-desktop) {
-    font-size: 144px;
-  }
+      font-size: 144px;
+    }
 
     @include respond(laptop) {
       font-size: 110px;
