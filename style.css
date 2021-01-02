@@ -598,6 +598,9 @@ body {
     @media only screen and (max-width: 910px) {
       .real-cards {
         padding: 50px 40px; } }
+    @media only screen and (max-width: 630px) {
+      .real-cards {
+        padding: 50px 30px; } }
 
 .projects {
   display: flex;
@@ -615,7 +618,8 @@ body {
         grid-template-columns: repeat(2, 1fr); } }
     @media only screen and (max-width: 630px) {
       .projects-cards {
-        grid-template-columns: repeat(1, 1fr); } }
+        grid-template-columns: repeat(1, 1fr);
+        padding: 50px 60px; } }
   .projects-btn {
     font-size: 20px;
     margin-bottom: 100px;
