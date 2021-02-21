@@ -71,6 +71,7 @@
 
   @include respond(tablet) {
     font-size: 15px;
+    font-weight: 300;
   }
 
   @include respond(phone) {
